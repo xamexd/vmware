@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+while [ ! -f "/tmp/done.txt" ];
+do
+	d=`date +%d-%m-%Y_%I:%M`
+	echo "Zain-$d" >> /tmp/keepOnGoing.txt
+	sleep 1m
+done
+

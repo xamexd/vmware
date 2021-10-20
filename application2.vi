@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+export TEAM="GSW"
+while ps -p $1 > /dev/null
+do
+	echo $TEAM >> /tmp/2ndProgram.txt
+	sleep 2m
+done
